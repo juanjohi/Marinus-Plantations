@@ -446,7 +446,7 @@ section {
 /* testimonial */
 
 .testimonial {
-    background-image: linear-gradient(rgba(35, 36, 35, 0.541), rgba(162, 212, 183, 0.562)), url(../assets/bn.jpg);
+    background-image: linear-gradient(rgba(35, 36, 35, 0.541), rgba(162, 212, 183, 0.562)), url(../assets/shot.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

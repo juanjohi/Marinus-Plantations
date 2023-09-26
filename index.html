@@ -286,10 +286,14 @@
             <div class="row wow animate__animated animate__fadeInUp animate__slow">
                 <div class="contact-left">
                     <h2>Send Message Here</h2>
-                    <form>
-                        <input type="text" class="form-control" placeholder="Name">
-                        <input type="email" class="form-control" placeholder="Email">
-                        <textarea placeholder="Message" rows="6"></textarea>
+                    <form action="https://formsubmit.co/antonymbae@gmail.com" method="POST">
+                        <input type="text" name="_honey" style="display: none;">
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <input type="text" name="name" class="form-control"  placeholder="Name">
+                        <input type="email" name="email" class="form-control"  placeholder="name@example.com">
+
+                        <textarea placeholder="Message" name="message" rows="6"></textarea>
                         <button type="submit" class="submit-btn">Send Now</button>
                     </form>
                 </div>

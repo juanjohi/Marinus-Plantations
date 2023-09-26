@@ -1,113 +1,411 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>Marinus Plantations</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marinus.Plantations</title>
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
-
-    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
-
-    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-
-    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-
-    <link rel="stylesheet" type="text/css" href="css/util.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <link rel="stylesheet" href="resources/normalize.css">
+    <link rel="stylesheet" href="resources/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="resources/Magnific-Popup-master/dist/magnific-popup.css">
+    <link rel="stylesheet" href="resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="resources/animate.css-main/animate.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 
-
-    <div class="bg-img1 overlay1 size1 flex-w flex-c-m p-t-55 p-b-55 p-l-15 p-r-15" style="background-image: url('images/bg01.jpg');">
-        <div class="wsize1">
-            <p class="txt-center p-b-23">
-                <i class="zmdi zmdi-card-giftcard cl0 fs-60"></i>
-            </p>
-
-            <h3 class="l1-txt1 txt-center p-b-22">
-                Coming Soon
-            </h3>
-
-            <p class="txt-center m2-txt1 p-b-67">
-                Our website is under construction, follow us for update now!
-            </p>
-
-            <div class="flex-w flex-sa-m cd100 bor1 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
-                <div class="flex-col-c-m wsize2 m-b-20">
-                    <span class="l1-txt2 p-b-4 days">7</span>
-                    <span class="m2-txt2">Days</span>
+    <header class="header" id="intro">
+        <nav class="navbar">
+            <div class="container">
+                <div class="brand-and-toggler">
+                    <a href="index.html" class="navbar-brand">
+             Marinus<span>.</span>Plantations
+            </a>
+                    <button type="button" class="navbar-toggler" id="navbar-toggler">
+              <i class = "fas fa-bars"></i>
+            </button>
                 </div>
 
-                <span class="l1-txt2 p-b-22">:</span>
-
-                <div class="flex-col-c-m wsize2 m-b-20">
-                    <span class="l1-txt2 p-b-4 hours">17</span>
-                    <span class="m2-txt2">Hours</span>
-                </div>
-
-                <span class="l1-txt2 p-b-22 respon2">:</span>
-
-                <div class="flex-col-c-m wsize2 m-b-20">
-                    <span class="l1-txt2 p-b-4 minutes">50</span>
-                    <span class="m2-txt2">Minutes</span>
-                </div>
-
-                <span class="l1-txt2 p-b-22">:</span>
-
-                <div class="flex-col-c-m wsize2 m-b-20">
-                    <span class="l1-txt2 p-b-4 seconds">39</span>
-                    <span class="m2-txt2">Seconds</span>
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#intro" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about-us" class="nav-link">About-us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#testimonial" class="nav-link">testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
 
+        <div class="hero-div center container">
+            <h1>MARINUS PLANTATIONS</h1>
+            <p class="animate__animated animate__fadeInUp animate__slow"> "Cultivating Success, One Byte at a Time: Your Digital Partner in Agriculture."</p>
 
+            <div class="hero-btns animate__animated animate__fadeInUp animate__slow">
+                <a href="#faq"><button type="button" class="btn-white">FAQ'S</button></a>
+            </div>
         </div>
-    </div>
+    </header>
+
+
+    <section class="feature" id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="feature-left wow animate__animated animate__fadeInUp animate__slow">
+                    <img src="assets/land.jpg" alt="">
+                </div>
+                <div class="feature-right wow animate__animated animate__fadeInUp animate__slow">
+                    <div class="title">
+                        <h2>About Us</h2>
+                        <p class="text"> Welcome to Marinus, where passion meets agriculture, and we're bananas about bananas!</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div>
+                            <h3>Our Mission</h3>
+                            <p class="text">Our mission is simple: to provide you with the freshest and tastiest bananas while practicing sustainable and eco-friendly farming methods. We believe that responsible farming not only benefits us but also helps preserve our
+                                beautiful planet for future generations.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+
+                        <div>
+                            <h3>Get to Explore the Varieties</h3>
+                            <p class="text">Explore a world of flavors with our wide range of banana varieties, each with its unique taste and texture. Whether you're a fan of the sweet and creamy Cavendish or prefer the unique taste of the Red Dacca, we have a banana
+                                for every palate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container">
+            <a class="center popup-youtube" href="#">
+                <i class="fas fa-play"></i>
+            </a>
+            <h2 class="wow animate__animated animate__fadeInUp animate__slow">Watch Sample Video</h2>
+            <p class="wow animate__animated animate__fadeInUp animate__slow">Informative Video about banana Farming</p>
+        </div>
+    </section>
+
+    <section class="team" id="gallery">
+        <div class="container">
+            <div class="title">
+                <h2 class="wow animate__animated animate__bounceIn animate__slow">Gallery</h2>
+                <p class="text">Visual Slides</p>
+            </div>
+
+            <div class="row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="assets/1.jpg" alt="">
+                        <!-- <div class="team-icons">
+                            <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div> -->
+                    </div>
+                    <!-- <div class="team-info">
+
+                        <span>Banana Field</span>
+                    </div> -->
+                </div>
+
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="assets/market-r.jpg" alt="">
+                        <div class="team-icons">
+                            <!-- <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- <div class="team-info">
+
+                        <span>Plantation</span>
+                    </div> -->
+                </div>
+
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="assets/bn-r.jpg" alt="">
+                        <div class="team-icons">
+                            <!-- <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- <div class="team-info">
+
+                        <span>Banana Variety</span>
+                    </div> -->
+                </div>
+
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="assets/plants.jpg" alt="">
+                        <div class="team-icons">
+                            <!-- <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- <div class="team-info">
+
+                        <span>Banana Bread</span>
+                    </div> -->
+                </div>
+
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="assets/shot.jpg" alt="">
+                        <div class="team-icons">
+                            <!-- <a href="#" class="center">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="center">
+                                <i class="fab fa-instagram"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <!-- <div class="team-info">
+
+                        <span>Creative Shot</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="title">
+                <h2 class="wow animate__animated animate__bounceIn animate__slow">FAQ'S</h2>
+                <p class="text">Common Questions Asked </p>
+            </div>
+
+            <div class="row wow animate__animated animate__fadeInUp animate__slow">
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <h3>What makes your bananas special?</h3>
+                        <span><i class = "fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-content">
+                        <p class="text">At MARINUS, we take pride in our commitment to quality and sustainability. Our bananas are grown with care, harvested at the peak of ripeness, and rigorously inspected to ensure they meet the highest standards. We also prioritize
+                            eco-friendly farming practices to bring you delicious bananas while minimizing our environmental impact.</p>
+
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <h3>Why choose us?</h3>
+                        <span><i class = "fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-content">
+                        <p class="text">We take pride in our dedication to quality. Our bananas are nurtured with care, harvested at their peak, and meticulously inspected to ensure they meet the highest standards.</p>
+                        <p class="text">We are committed to sustainable farming practices that minimize our environmental footprint. From organic fertilizers to responsible water management, we strive to protect our planet.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <h3>How do you ensure the freshness of your bananas during shipping?</h3>
+                        <span><i class = "fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-content">
+                        <p class="text">We employ advanced packaging and logistics methods to maintain the freshness of our bananas during shipping. Our team carefully selects and packs each banana to minimize bruising, and we use temperature-controlled storage and transportation
+                            to preserve their quality.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="detail">
+        <div class="container">
+            <div class="row">
+                <div class="detail-item wow animate__animated animate__fadeInLeft animate__slow">
+
+                    <h2>Farming Practices</h2>
+                    <div class="line"></div>
+                    <p class="text">We do make sure to use the best farm practices to ensure proper growth of our plants, from mulching,pest and disease management, post-harvesting management etc...</p>
+                </div>
+
+                <div class="detail-item wow animate__animated animate__fadeInUp animate__s">
+
+                    <h2>Harvesting and Packaging</h2>
+                    <div class="line"></div>
+                    <p class="text">We adhere to the best harvesting and packaging practices to ensure that our bananas reach our consumers in optimal condition and maintain their quality throughout the supply chain.</p>
+                </div>
+
+                <div class="detail-item wow animate__animated animate__fadeInRight animate__slow">
+
+                    <h2>Sustainability & Eco-Friendly Practices</h2>
+                    <div class="line"></div>
+                    <p class="text">We incorporate sustainability and eco-friendly practices into our banana cultivation operations,contributing to environmental conservation, promote responsible farming, and meet the growing demand for eco-conscious agricultural products.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="container">
+            <div class="title">
+                <h2 class="wow animate__animated animate__bounceIn animate__slow">Testimonials Words</h2>
+                <p class="text">From our customers</p>
+            </div>
+
+            <div class="row owl-carousel owl-theme wow animate__animated animate__fadeInUp animate__slow">
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="assets/male-r.jpg" alt="">
+                    </div>
+                    <p>"I can't get enough of the bananas. They are hands down the best I've ever tasted. The quality is consistently top-notch, and I appreciate their commitment to sustainable farming.</p>
+                    <span>John D. - Happy Customer</span>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="assets/male-r.jpg" alt="">
+                    </div>
+                    <p>"Whenever I order bananas from, I'm always impressed by their freshness and quality. They arrive in perfect condition, and it's clear that this farm takes pride in its produce."</p>
+                    <span>David P. - Freshness Guaranteed</span>
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src="assets/female-r.png" alt="">
+                    </div>
+                    <p>"I had a few questions about my order, and the customer support team was extremely helpful and responsive. It's clear that they value their customers."</p>
+                    <span>Linda H. - Great Customer Service</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="title">
+                <h2 class="wow animate__animated animate__bounceIn animate__slow">Contact Us</h2>
+                <p class="text">Send us a Message</p>
+            </div>
+
+            <div class="row wow animate__animated animate__fadeInUp animate__slow">
+                <div class="contact-left">
+                    <h2>Send Message Here</h2>
+                    <form>
+                        <input type="text" class="form-control" placeholder="Name">
+                        <input type="email" class="form-control" placeholder="Email">
+                        <textarea placeholder="Message" rows="6"></textarea>
+                        <button type="submit" class="submit-btn">Send Now</button>
+                    </form>
+                </div>
+
+                <div class="contact-right">
+                    <div>
+                        <h2>Visit Office</h2>
+                        <p class="text">Kiambu, Limuru Road</p>
+                    </div>
+                    <div>
+                        <h2>Call Us</h2>
+                        <p class="text">+254 723 541 638</p>
+                    </div>
+                    <div>
+                        <h2>Send Email</h2>
+                        <p class="text">marinusplantations@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer center">
+        <div class="container">
+            <p class="text">Copyright &copy; Marinus.Plantations | All Rights Reserved</p>
+            <div class="footer-links">
+                <a href="#" class="center">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="center">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="center">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="center">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 
 
 
-    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 
-    <script src="vendor/bootstrap/js/popper.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <script src="vendor/select2/select2.min.js"></script>
 
-    <script src="vendor/countdowntime/moment.min.js"></script>
-    <script src="vendor/countdowntime/moment-timezone.min.js"></script>
-    <script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-    <script src="vendor/countdowntime/countdowntime.js"></script>
-    <script>
-        $('.cd100').countdown100({
+    <script src="resources/jquery-3.5.1.js"></script>
 
-            endtimeYear: 2023,
-            endtimeMonth: 8,
-            endtimeDate: 7,
-            endtimeHours: 18,
-            endtimeMinutes: 0,
-            endtimeSeconds: 0,
-            timeZone: "Africa/Nairobi"
+    <script src="resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
 
-        });
-    </script>
+    <script src="resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
 
-    <script src="vendor/tilt/tilt.jquery.min.js"></script>
-    <script>
-        $('.js-tilt').tilt({
-            scale: 1.1
-        })
-    </script>
+    <script src="resources/WOW-master/dist/wow.js"></script>
 
-    <script src="js/main.js"></script>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
